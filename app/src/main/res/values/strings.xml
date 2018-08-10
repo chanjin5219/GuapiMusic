@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">MusicPlayer</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home_playlist">play list</string>
+    <string name="home_collection">collection</string>
+    <string name="main_title_collection">collection</string>
+    <string name="main_title_local">local</string>
+    <string name="main_title_online">online</string>
+    <string name="main_title_home">home</string>
+    <string name="home_playlist_text">list is null</string>
+    <string name="music_or_author">输入歌曲名或歌手</string>
+    <string name="playing_music">playing music</string>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fitsSystemWindows="true">
+
+    <RelativeLayout
+        android:id="@+id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/colorPrimary"
+        android:visibility="visible">
+
+        <ImageButton
+            android:id="@+id/img_btn_back"
+            android:layout_width="?attr/actionBarSize"
+            android:layout_height="?attr/actionBarSize"
+            android:src="@mipmap/back_white"
+            android:background="@drawable/action_selector"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="120dp"
+            android:orientation="horizontal"
+            android:layout_centerHorizontal="true">
+            <EditText
+                android:id="@+id/et_search"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:hint="@string/music_or_author"
+                android:background="@null"
+                android:textCursorDrawable="@drawable/cursor_selector"/>
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/img_btn_search"
+            android:layout_width="?attr/actionBarSize"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/action_selector"
+            android:src="@mipmap/search_white"/>
+    </RelativeLayout>
+
+</LinearLayout>
